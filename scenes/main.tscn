@@ -1,0 +1,88 @@
+[gd_scene load_steps=2 format=3 uid="uid://crrlmy1n3w6t5"]
+
+[ext_resource type="PackedScene" uid="uid://diy07y58liel6" path="res://scenes/other_scene.tscn" id="1_b0qgq"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="AABB" type="AudioStreamPlayer" parent="."]
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+
+[node name="CCVV" type="AudioStreamPlayer" parent="."]
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="CCVV"]
+
+[node name="CanvasLayer" type="CanvasLayer" parent="CCVV/AnimationPlayer"]
+
+[node name="Node2D" type="Node2D" parent="CCVV/AnimationPlayer"]
+
+[node name="TextEdit" type="TextEdit" parent="CCVV"]
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="_Node2D" type="Node2D" parent="CCVV"]
+
+[node name="Camera3D" type="Camera3D" parent="CCVV"]
+
+[node name="CenterContainer" type="CenterContainer" parent="."]
+offset_left = -1.0
+offset_right = 279.0
+offset_bottom = 89.0
+
+[node name="FFEE" type="AnimationPlayer" parent="CenterContainer"]
+
+[node name="Node3D" type="Node3D" parent="CenterContainer/FFEE"]
+
+[node name="SubViewport" type="SubViewport" parent="CenterContainer/FFEE"]
+
+[node name="Button" type="Button" parent="CenterContainer"]
+layout_mode = 2
+
+[node name="LinkButton" type="LinkButton" parent="CenterContainer"]
+layout_mode = 2
+
+[node name="HTTPRequest" type="HTTPRequest" parent="CenterContainer"]
+
+[node name="Window" type="Window" parent="CenterContainer"]
+position = Vector2i(0, 36)
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="TextEdit" type="TextEdit" parent="."]
+offset_top = 36.0
+offset_right = 40.0
+offset_bottom = 44.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Button3" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="Button1" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="Node2D" type="Node2D" parent="VBoxContainer/Button1"]
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="VBoxContainer/Button1/Node2D"]
+
+[node name="BackBufferCopy" type="BackBufferCopy" parent="VBoxContainer/Button1/Node2D"]
+
+[node name="Button2" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="AA" type="Node2D" parent="."]
+metadata/_edit_lock_ = true
+
+[node name="Node2D" type="Node2D" parent="."]
+
+[node name="A" type="Node3D" parent="."]
+
+[node name="Node" type="Node3D" parent="."]
+
+[node name="other_scene" parent="." instance=ExtResource("1_b0qgq")]

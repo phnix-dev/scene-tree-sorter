@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://diy07y58liel6"]
+
+[node name="other_scene" type="Node3D"]
+
+[node name="SkeletonIK3D" type="SkeletonIK3D" parent="."]
+
+[node name="Node2D" type="Node2D" parent="."]
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
