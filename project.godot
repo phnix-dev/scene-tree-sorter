@@ -20,7 +20,7 @@ project/assembly_name="D-"
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/scene_tree_sorter/plugin.cfg")
+enabled=PackedStringArray("res://addons/scene-tree-sorter/plugin.cfg")
 
 [rendering]
 
